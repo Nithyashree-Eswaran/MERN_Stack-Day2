@@ -1,0 +1,60 @@
+/* Reset the browser's default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('10946660937.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: black;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.clock-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.clock .time {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.clock .date {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .clock .time {
+        font-size: 3rem;
+    }
+
+    .clock .date {
+        font-size: 1.2rem;
+    }
+}
