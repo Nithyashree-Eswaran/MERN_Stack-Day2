@@ -1,0 +1,83 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Background and General Layout */
+body {
+    background-image: url('download.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    width: 400px;  
+    height: 50px;
+    font-size: 1.2rem;
+    background: rgba(255, 255, 255, 0.4); 
+    color: black; 
+    margin-top: 70px; 
+}
+
+/* Heading style */
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+/* Counter and Button layout */
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3); /* Dark background for counter */
+    width: 100px;
+}
+
+/* Button style */
+.increment-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.increment-btn:hover {
+    background-color: lavender; /* Green on hover */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 20px;
+    }
+}
