@@ -1,0 +1,28 @@
+.divclass{
+    color: purple;
+
+}
+#tag{
+    color: purple;
+    border: 2px solid black;
+    background-color: black;
+}
+.div1{
+    background-color: teal;
+    height: 100px;
+}
+
+.div2{
+    background-color: green;
+    height: 100px;
+}
+
+.div3{
+    background-color: pink;
+    height: 100px;
+}
+
+.div4{
+    background-color: gray;
+    height: 100px;
+}
